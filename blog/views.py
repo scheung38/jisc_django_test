@@ -71,7 +71,7 @@ def email_two(request):
     msg.content_subtype = 'html'
     msg.send()
 
-    return HttpResponse('email_two')
+    return HttpResponse('email_sent')
 
 
 class PostMixinDetailView(object):
