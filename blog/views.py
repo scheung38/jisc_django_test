@@ -59,7 +59,7 @@ def post_edit(request, pk):
 def email_two(request):
     subject = "I am an HTML email"
     to = ['adric.warth@jisc.ac.uk']
-    from_email = 'Django.test@example.com'
+    from_email = 'sebastian_cheung@yahoo.com'
 
     ctx = {
         'user': 'buddy',
